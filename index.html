@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+       <!-- External Image -->
+        <div>
+            <img src="images/pexels-super-luxury-469314875-15744081.jpg" alt="Sample Image from Pexels" >
+        </div>
+        
+        
+        <!-- Registration Form -->
+        <div class="register">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label> <br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" class="count"><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="count"><br><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password" class="count" required><br><br>
+                
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" class="count" required><br><br>
+                
+                <!-- Dropdown -->
+                <label for="country">Country:</label><br>
+                <select class="count" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                </select><br><br>
+                
+                <!-- Radio Buttons -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label><br><br>
+                
+                <!-- Checkboxes -->
+                <label>Interests:</label><br>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label><br><br>
+                
+                <input type="submit" value="Register" class="btn">
+            </form>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
